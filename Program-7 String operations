@@ -1,6 +1,4 @@
-STRING SLICING 
-
-
+#STRING SLICING 
 x = "krishna"
 print(x[1])
 print(x[0:5])
@@ -10,10 +8,8 @@ print(x[::-7])
 print(x[-1:])
 
 
-STRING OPERATIONS 
-
+#STRING OPERATIONS 
 s = "Artificial Intelligence and Machine Learning"
-
 print(s.upper())
 print(s.lower())
 print(s.find("Machine"))
@@ -24,9 +20,8 @@ print(s.capitalize())
 print(s.isdigit())
 print(s.islower())
 
-string concatenation & repetition 
+#string concatenation & repetition 
 a1 = "Hello"
 a2 = "Students"
-
 print(a1 + a2)
 print(a1 * 2)
