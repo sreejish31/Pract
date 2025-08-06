@@ -3,7 +3,6 @@ syntax:
 1.if condition:
     # Statements to execute if condition is True
 
-
 2.if condition1:
     # Runs if condition1 is True
   elif condition2:
@@ -11,14 +10,12 @@ syntax:
   elif condition3:
     # Runs if all above are False but condition3 is True
 
-
 3.if condition:
     # Runs if condition is True
   else:
     # Runs if condition is False
 
-
-
+#student grade details
 rollno = int(input("Enter your rollno: "))
 name = input("Enter your name: ")
 
@@ -30,10 +27,8 @@ m5 = int(input("Enter m5: "))
 
 total = m1 + m2 + m3 + m4 + m5
 print("Total marks:", total)
-
 avg = total/5
 print("Average mark:", avg)
-
 if avg >= 90 and avg <= 100:
     print("A+ grade")
 elif avg >= 80 and avg < 90:
