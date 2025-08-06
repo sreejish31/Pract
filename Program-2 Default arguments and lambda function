@@ -1,0 +1,36 @@
+DEFAULT ARGS
+
+def calculate(a, b, operation="add"):
+    if operation == "add":
+        return a + b
+    elif operation == "sub":
+        return a - b
+    elif operation == "mul":
+        return a * b
+    elif operation == "div":
+        return a / b
+    elif operation == "mod":
+        return a % b
+    else:
+        print("Unknown operation")
+
+print(calculate(5, 2))                     
+print(calculate(5, 2, "sub"))             
+print(calculate(5, 2, "mul"))             
+print(calculate(5, 2, "div"))             
+print(calculate(5, 2, "mod"))             
+print(calculate(5, 2, "dis"))    
+
+
+
+LAMBDA FUNCTION 
+
+nums = [4, 6, 1, 3, 8, 9, 2]
+print(sorted(nums))
+print(sorted(nums, reverse=True))
+
+fruits = ["Apple", "Orange", "Grapes", "Banana"]
+print(sorted(fruits))
+
+mixed = ["Kiwi", "Apple", "Orange", "Banana", "Grapes", "Watermelon", "Jackfruit"]
+print(sorted(mixed, key=len))
