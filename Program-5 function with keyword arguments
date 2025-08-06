@@ -4,7 +4,7 @@ def function_name(param1, param2, ...):
     statements
     return value  
 
-
+#student report using keyword arguments
 def student_report(name, grade, subject="Math", marks=0):
     print("\nStudent Report")
     print(f"Name: {name}")
