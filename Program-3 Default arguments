@@ -1,5 +1,5 @@
-DEFAULT ARGS
-
+#DEFAULT ARGS
+#arthmetic operations 
 def calculate(a, b, operation="add"):
     if operation == "add":
         return a + b
@@ -22,7 +22,7 @@ print(calculate(5, 2, "mod"))
 print(calculate(5, 2, "dis"))    
 
 
-
+#data usage tracker
 def datausage(name, data_used, limit=2):
     if data_used > limit:
         print(name, "Your limit is exceeded")
